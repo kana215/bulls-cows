@@ -3,33 +3,27 @@
 
 <head>
     <title>Быки и коровы</title>
+    <link rel="stylesheet" href="./styles.css" />
     <script src="index.js" async></script>
 </head>
 
-<body style="margin: 0px; padding: 0px;">
-    <!-- main -->
-    <div style="display: flex; width:100%; height: 100vh;">
-        <!-- left -->
-        <div style="background-color: aqua; width:70%; display: flex; flex-direction: column;">
-            <button style="background-color: rgb(168, 255, 37);font-size: large; margin: 8px">Начать по новой</button>
-
-            <div
-                style="background-color: blue; height: 100%; justify-content: center; align-items: center;display: flex;">
-                <input placeholder="Введите число..." style="font-size: 50px" />
-                <button style="background-color: red; width:20%;">
+<body>
+    <main>
+        <div class="left">
+            <button>Начать по новой</button>
+            <div class="center">
+                <input placeholder="Введите число..." />
+                <button>
                     ок
                 </button>
             </div>
-
-
         </div>
-        <!-- right -->
-        <div style="background-color: red; width:30%;">
+        <div class="right">
             <span>Быки:</span>
             <span>Коровы:</span>
             <span>Попытки:</span>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
