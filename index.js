@@ -33,7 +33,7 @@ while (popytki !== 0) {
     let korovy = 0;
 
 
-    const userInput = prompt("Введите ваше число дорогой пользователь...");
+    const userInput = console.log("Введите ваше число дорогой пользователь...");
 
     console.log("Пользователь ввел число: ", userInput);
 
